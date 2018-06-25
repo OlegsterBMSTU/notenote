@@ -1,1 +1,32 @@
-%h1 this is the Welcome placeholder
+#banner
+    .banner_content
+        %h1 NoteNote
+        %p Your online notebook. Use it, please )))
+        %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+    .wrapper
+        %p.quote "I want to send a "Hello" Podolyanov Artyom. Thanks for him )))"
+        %p.name - And everybody who supported me :)
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Notes
+                %p Something a text :)
+            .callout
+                %h2 Notes
+                %p Something a text :)
+            .callout
+                %h2 Notes
+                %p Something a text :)
+
+#bottom_cta
+    .wrapper
+        %h2 For Realz! 
+        %p I want you to sign up... If you don't i'll find you
+        %button= link_to "Click Me!", new_user_registration_path
+
+%footer
+    %p &copy; OlegsterBMSTU
